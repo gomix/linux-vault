@@ -43,7 +43,7 @@ The structure prioritizes:
 
 ---
 
-# [[00-inbox/README|00-inbox/]]
+# [00-inbox/](00-inbox/README.md)
 
 Capture area.
 Everything lands here first.
