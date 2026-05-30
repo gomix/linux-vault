@@ -49,7 +49,7 @@ Capture area.
 Everything lands here first.
 
 ---
-# [[01-daily/README|01-daily/]]
+# [01-daily/](01-daily/README)
 
 Daily technical journal.
 
