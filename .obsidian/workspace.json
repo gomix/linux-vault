@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "02-projects/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -200,8 +200,9 @@
   },
   "active": "c1bdbd10b85f9748",
   "lastOpenFiles": [
-    "01-daily/README.md",
     "README.md",
+    "02-projects/README.md",
+    "01-daily/README.md",
     "01-daily/Untitled",
     "00-inbox/README.md",
     "00-inbox.md",
@@ -236,7 +237,6 @@
     "12-media/hardware/cameras/obsbot-tiny-se/assets/images/rode-nt-usb-mini.png",
     "12-media/hardware/cameras/obsbot-tiny-se/assets/images/obsbot-tiny-se.png",
     "12-media/hardware/cameras/obsbot-tiny-se/rode-nt-usb-mini.md",
-    "12-media/hardware/cameras/obsbot-tiny-se/fedora-stack.md",
     "12-media/hardware/cameras/obsbot-tiny-se/assets/images",
     "12-media/hardware/cameras/obsbot-tiny-se/assets",
     "12-media/hardware/cameras/obsbot-tiny-se"

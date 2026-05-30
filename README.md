@@ -62,7 +62,7 @@ Useful for:
 - temporary findings
 
 ---
-# 02-projects/
+# [02-projects/](02-projects/README.md)
 
 Active projects with lifecycle and ownership.
 
