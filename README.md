@@ -20,7 +20,7 @@ The structure prioritizes:
 # Root Structure
 
 ```text
-~/knowledge/linux-vault
+~/linux-vault
 │
 ├── 00-inbox/
 ├── 01-daily/
@@ -49,7 +49,7 @@ Capture area.
 Everything lands here first.
 
 ---
-# 01-daily/
+# [[01-daily/README|01-daily/]]
 
 Daily technical journal.
 
