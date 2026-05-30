@@ -76,20 +76,8 @@ Examples:
 └── obsidian-workflow/
 ```
 
-Typical internal structure:
-
-```text
-project-name/
-├── README.md
-├── notes/
-├── diagrams/
-├── snippets/
-├── references/
-└── tasks.md
-```
-
 ---
-# 03-linux/
+# [03-linux/](03-linux/README.md)
 
 Core Linux knowledge base.
 
@@ -110,19 +98,8 @@ Organized by technical domain.
 └── troubleshooting/
 ```
 
-Examples:
-
-```text
-03-linux/hyprland/
-├── monitors.md
-├── workspaces.md
-├── waybar.md
-├── clipboard.md
-└── rules.md
-```
-
 ---
-# 04-automation/
+# [04-automation/](04-automation/README.md)
 
 Automation-specific content.
 

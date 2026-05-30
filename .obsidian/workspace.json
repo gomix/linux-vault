@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-projects/README.md",
+                "file": "04-automation/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -201,6 +201,8 @@
   "active": "c1bdbd10b85f9748",
   "lastOpenFiles": [
     "README.md",
+    "04-automation/README.md",
+    "03-linux/README.md",
     "02-projects/README.md",
     "01-daily/README.md",
     "01-daily/Untitled",
@@ -229,14 +231,12 @@
     "12-media/audio/microphones.md",
     "12-media/recording/microphone-setup.md",
     "12-media/hardware/cameras/obsbot-tiny-se/obsbot-tiny-se.md",
-    "12-media/recording/tests/2026/2026-05-20-obsbot-tiny-se-control-test/notes.md",
     "12-media/recording/tests/2026/2026-05-20-obsbot-tiny-se-control-test/screenshots",
     "12-media/recording/tests/2026/2026-05-20-obsbot-tiny-se-control-test",
     "12-media/recording/tests/2026",
     "12-media/recording/tests",
     "12-media/hardware/cameras/obsbot-tiny-se/assets/images/rode-nt-usb-mini.png",
     "12-media/hardware/cameras/obsbot-tiny-se/assets/images/obsbot-tiny-se.png",
-    "12-media/hardware/cameras/obsbot-tiny-se/rode-nt-usb-mini.md",
     "12-media/hardware/cameras/obsbot-tiny-se/assets/images",
     "12-media/hardware/cameras/obsbot-tiny-se/assets",
     "12-media/hardware/cameras/obsbot-tiny-se"
