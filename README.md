@@ -113,17 +113,10 @@ Automation-specific content.
 └── taskwarrior/
 ```
 
-Examples:
-
-```text
-04-automation/scripts/
-├── backup-script.md
-├── media-sync.md
-└── workstation-bootstrap.md
-```
+# [05-ai/](05-ai/README.d)
 
 ---
-# 05-homelab/
+# [06-homelab/](06-homelab/README.d)
 
 Personal infrastructure and local systems.
 

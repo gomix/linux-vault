@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-automation/README.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
@@ -200,6 +200,7 @@
   },
   "active": "c1bdbd10b85f9748",
   "lastOpenFiles": [
+    "05-ai/README.md",
     "README.md",
     "04-automation/README.md",
     "03-linux/README.md",
@@ -230,7 +231,6 @@
     "12-media/audio/noise-reduction.md",
     "12-media/audio/microphones.md",
     "12-media/recording/microphone-setup.md",
-    "12-media/hardware/cameras/obsbot-tiny-se/obsbot-tiny-se.md",
     "12-media/recording/tests/2026/2026-05-20-obsbot-tiny-se-control-test/screenshots",
     "12-media/recording/tests/2026/2026-05-20-obsbot-tiny-se-control-test",
     "12-media/recording/tests/2026",
