@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bb8c1dcb2d0481a4",
+        "id": "f21f5c66e46de8a0",
         "type": "tabs",
         "children": [
           {
-            "id": "946416f391c289ce",
+            "id": "72cb7dd5ab7b1377",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "12-media/ffmpeg/conversion.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "conversion"
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -198,8 +198,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "946416f391c289ce",
+  "active": "72cb7dd5ab7b1377",
   "lastOpenFiles": [
+    "03-linux/hyprland/keyboard/identifying-keys-on-the-keyboard.md",
+    "12-media/ffmpeg/conversion.md",
     "12-media/ffmpeg/compression.md",
     "12-media/video/codecs.md",
     "12-media/pipewire/bluetooth.md",
@@ -234,8 +236,6 @@
     "12-media/recording/presentation-recording.md",
     "12-media/recording/desktop-capture.md",
     "12-media/recording/workshop-recording.md",
-    "12-media/ffmpeg/snippets.md",
-    "12-media/ffmpeg/subtitles.md",
     "12-media/publishing",
     "12-media/assets"
   ]
