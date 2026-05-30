@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 406.5
+    "width": 280.5
   },
   "right": {
     "id": "ccee82ea5aae2267",
@@ -200,8 +200,10 @@
   },
   "active": "c1bdbd10b85f9748",
   "lastOpenFiles": [
-    "00-inbox/README.md",
+    "01-daily/README.md",
     "README.md",
+    "01-daily/Untitled",
+    "00-inbox/README.md",
     "00-inbox.md",
     "00-inbox/obsbot-tiny-se.md",
     "00-inbox/chrony.md",
@@ -237,8 +239,6 @@
     "12-media/hardware/cameras/obsbot-tiny-se/fedora-stack.md",
     "12-media/hardware/cameras/obsbot-tiny-se/assets/images",
     "12-media/hardware/cameras/obsbot-tiny-se/assets",
-    "12-media/hardware/cameras/obsbot-tiny-se",
-    "12-media/hardware/cameras",
-    "12-media/publishing/upload-checklist.md"
+    "12-media/hardware/cameras/obsbot-tiny-se"
   ]
 }
