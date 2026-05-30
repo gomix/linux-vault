@@ -1,4 +1,4 @@
-# linux-vault-structure
+# linux-vault structure
 
 ````md
 # Linux Vault Structure
@@ -51,29 +51,12 @@ The structure prioritizes:
 
 ---
 
-# 00-inbox/
+# [[00-inbox/|00-inbox]]
 
-Temporary capture area.
-
+Capture area.
 Everything lands here first.
 
-Examples:
-
-```text
-00-inbox/
-├── random-idea.md
-├── command-to-review.md
-├── hyprland-note.md
-└── vim-tip.md
-```
-
-Rules:
-
-- nothing should remain here permanently
-- process inbox notes regularly
-
 ---
-
 # 01-daily/
 
 Daily technical journal.

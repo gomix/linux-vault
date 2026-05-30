@@ -200,6 +200,9 @@
   },
   "active": "c1bdbd10b85f9748",
   "lastOpenFiles": [
+    "00-inbox/README.md",
+    "README.md",
+    "00-inbox.md",
     "00-inbox/obsbot-tiny-se.md",
     "00-inbox/chrony.md",
     "00-inbox/fedora-stack.md",
@@ -223,7 +226,6 @@
     "12-media/audio/microphones.md",
     "12-media/recording/microphone-setup.md",
     "12-media/hardware/cameras/obsbot-tiny-se/obsbot-tiny-se.md",
-    "README.md",
     "12-media/recording/tests/2026/2026-05-20-obsbot-tiny-se-control-test/notes.md",
     "12-media/recording/tests/2026/2026-05-20-obsbot-tiny-se-control-test/screenshots",
     "12-media/recording/tests/2026/2026-05-20-obsbot-tiny-se-control-test",
@@ -237,7 +239,6 @@
     "12-media/hardware/cameras/obsbot-tiny-se/assets",
     "12-media/hardware/cameras/obsbot-tiny-se",
     "12-media/hardware/cameras",
-    "12-media/publishing/upload-checklist.md",
-    "12-media/publishing/upload-chekclist.md"
+    "12-media/publishing/upload-checklist.md"
   ]
 }
