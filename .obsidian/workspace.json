@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/fedora-stack.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fedora-stack"
+              "title": "README"
             }
           }
         ]
@@ -200,15 +200,15 @@
   },
   "active": "c1bdbd10b85f9748",
   "lastOpenFiles": [
-    "00-inbox/rode-nt-usb-mini.md",
     "00-inbox/obsbot-tiny-se.md",
+    "00-inbox/chrony.md",
+    "00-inbox/fedora-stack.md",
+    "00-inbox/rode-nt-usb-mini.md",
     "00-inbox/mc.md",
     "00-inbox/assets/images/rode-nt-usb-mini.png",
     "00-inbox/assets/images/obsbot-tiny-se.png",
     "00-inbox/assets/images",
     "00-inbox/assets",
-    "00-inbox/fedora-stack.md",
-    "00-inbox/chrony.md",
     "03-linux/hyprland/keyboard/identifying-keys-on-the-keyboard.md",
     "12-media/ffmpeg/conversion.md",
     "12-media/ffmpeg/compression.md",

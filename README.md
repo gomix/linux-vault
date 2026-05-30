@@ -1,4 +1,4 @@
-# linux-vault-structure.md
+# linux-vault-structure
 
 ````md
 # Linux Vault Structure
