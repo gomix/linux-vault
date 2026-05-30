@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f21f5c66e46de8a0",
+        "id": "07acf02ef289a047",
         "type": "tabs",
         "children": [
           {
-            "id": "72cb7dd5ab7b1377",
+            "id": "c1bdbd10b85f9748",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "00-inbox/fedora-stack.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "fedora-stack"
             }
           }
         ]
@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 612.5
+    "width": 447.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,8 +198,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "72cb7dd5ab7b1377",
+  "active": "c1bdbd10b85f9748",
   "lastOpenFiles": [
+    "00-inbox/rode-nt-usb-mini.md",
+    "00-inbox/obsbot-tiny-se.md",
+    "00-inbox/mc.md",
+    "00-inbox/assets/images/rode-nt-usb-mini.png",
+    "00-inbox/assets/images/obsbot-tiny-se.png",
+    "00-inbox/assets/images",
+    "00-inbox/assets",
+    "00-inbox/fedora-stack.md",
+    "00-inbox/chrony.md",
     "03-linux/hyprland/keyboard/identifying-keys-on-the-keyboard.md",
     "12-media/ffmpeg/conversion.md",
     "12-media/ffmpeg/compression.md",
@@ -229,14 +238,6 @@
     "12-media/hardware/cameras/obsbot-tiny-se",
     "12-media/hardware/cameras",
     "12-media/publishing/upload-checklist.md",
-    "12-media/publishing/upload-chekclist.md",
-    "12-media/publishing/export-settings.md",
-    "12-media/publishing/thumbnails.md",
-    "12-media/publishing/youtube.md",
-    "12-media/recording/presentation-recording.md",
-    "12-media/recording/desktop-capture.md",
-    "12-media/recording/workshop-recording.md",
-    "12-media/publishing",
-    "12-media/assets"
+    "12-media/publishing/upload-chekclist.md"
   ]
 }
