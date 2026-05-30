@@ -1,8 +1,3 @@
-# linux-vault structure
-
-````md
-# Linux Vault Structure
-
 ## Overview
 
 This vault is designed for:
@@ -22,9 +17,6 @@ The structure prioritizes:
 3. Git friendliness
 4. offline-first usage
 5. separation between stable knowledge and temporary investigations
-
----
-
 # Root Structure
 
 ```text
