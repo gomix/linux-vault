@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "07acf02ef289a047",
+        "id": "aa3ea7cc06967fcd",
         "type": "tabs",
         "children": [
           {
-            "id": "c1bdbd10b85f9748",
+            "id": "c43d9af29420db6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "00-inbox/tmux-tpm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "tmux-tpm"
             }
           }
         ]
@@ -198,10 +198,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c1bdbd10b85f9748",
+  "active": "c43d9af29420db6d",
   "lastOpenFiles": [
-    "05-ai/README.md",
+    "00-inbox/tmux-tpm.md",
     "README.md",
+    "05-ai/README.md",
     "04-automation/README.md",
     "03-linux/README.md",
     "02-projects/README.md",
@@ -230,7 +231,6 @@
     "12-media/recording/tests/2026/2026-05-20-obsbot-tiny-se-control-test/assets.md",
     "12-media/audio/noise-reduction.md",
     "12-media/audio/microphones.md",
-    "12-media/recording/microphone-setup.md",
     "12-media/recording/tests/2026/2026-05-20-obsbot-tiny-se-control-test/screenshots",
     "12-media/recording/tests/2026/2026-05-20-obsbot-tiny-se-control-test",
     "12-media/recording/tests/2026",
