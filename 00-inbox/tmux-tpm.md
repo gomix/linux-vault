@@ -26,7 +26,7 @@ And at very end of the configuration file add:
 # (keep this line at the very bottom of your mux.conf)
 run -b '~/.tmux/plugins/tpm/tpm'
 ```
-Inside install your plugins
+Inside `tmux` install your plugins
 ```
 Prefix + I
 ```
