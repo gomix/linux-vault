@@ -13,7 +13,6 @@ set -g @plugin 'tmux-plugins/tmux-sensible'
 set -g @plugin 'tmux-plugins/tmux-resurrect'
 set -g @plugin 'tmux-plugins/tmux-continuum'
 
-
 # plugins configuration
 set -g @continuum-restore 'on'
 set -g @continuum-save-interval '15'
