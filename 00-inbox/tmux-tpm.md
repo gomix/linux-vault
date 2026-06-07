@@ -2,11 +2,11 @@
 
 Install TPM
 
-```
+```bash
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 Configure your plugins:
-```
+```ini
 # List of plugins
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
@@ -20,7 +20,7 @@ set -g @resurrect-save-bash-history 'on'
 set -g @resurrect-capture-pane-contents 'on'
 ```
 And at very end of the configuration file add:
-```
+```ini
 # Initialize TMUX plugin manager 
 # (keep this line at the very bottom of your mux.conf)
 run -b '~/.tmux/plugins/tpm/tpm'
