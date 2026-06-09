@@ -28,7 +28,7 @@ This will update your existing config files
 └  
 ```
 
-%% First stop, goose does not bring any model, you need to connect to one. %%
+> First stop, goose does not bring any model, you need to connect to one.
 
 References
 * https://access.redhat.com/articles/7142302
