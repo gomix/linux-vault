@@ -1,31 +1,31 @@
 # Installing
 
-RHEL 9.8
-```
-$ sudo subscription-manager repos --enable=rhel-9-for-x86_64-extensions-rpms
-$ sudo dnf install goose goose-redhat
-```
+## RHEL 9.8
 
-# First  Impressions
-```
+```bash
+$ sudo subscription-manager repos --enable=rhel-9-for-x86_64-extensions-rpms
+$ sudo dnf install goose-redhat
 # goose --version
  1.23.2
+```
+## Using `RHEL-command-line-assistant`model
 
-# goose configure  
+No need to configure anything just use:
 
-This will update your existing config files
-  if you prefer, you can edit them directly at /root/.config/goose
+```bash
+# goose run -t 'What is the current OS version and kernel release?'
+starting session | provider: rhel_cla model: RHEL-command-line-assistant
+    session id: 20260609_2
+    working directory: /root
+To determine the current OS version and kernel release on a Red Hat Enterprise Linux system, you can use the following commands:
 
-┌   goose-configure 
-│
-◆  What would you like to configure?
-│  ● Configure Providers (Change provider or update credentials)
-│  ○ Custom Providers 
-│  ○ Add Extension 
-│  ○ Toggle Extensions 
-│  ○ Remove Extension 
-│  ○ goose settings 
-└  
+For the OS version:
+
+cat /etc/redhat-release
+
+For the kernel release:
+
+uname -r
 ```
 
 > First stop, `goose` does not bring any model, you need to connect to one.
