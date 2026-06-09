@@ -5,10 +5,10 @@
 ```bash
 $ sudo subscription-manager repos --enable=rhel-9-for-x86_64-extensions-rpms
 $ sudo dnf install goose-redhat
-# goose --version
+$ goose --version
  1.23.2
 ```
-## Using `RHEL-command-line-assistant`model
+## Using `RHEL-command-line-assistant` model
 
 No need to configure anything just use:
 
