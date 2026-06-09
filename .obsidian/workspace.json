@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-inbox/rode-nt-usb-mini.md",
+                "file": "03-linux/terminal/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rode-nt-usb-mini"
+              "title": "README"
             }
           }
         ]
@@ -200,12 +200,15 @@
   },
   "active": "c43d9af29420db6d",
   "lastOpenFiles": [
+    "03-linux/README.md",
+    "03-linux/terminal/README.md",
+    "03-linux/terminal/tmux-tpm.md",
+    "03-linux/terminal",
+    "00-inbox/rode-nt-usb-mini.md",
     "00-inbox/dnf needs-restarting.md",
-    "00-inbox/tmux-tpm.md",
     "README.md",
     "05-ai/README.md",
     "04-automation/README.md",
-    "03-linux/README.md",
     "02-projects/README.md",
     "01-daily/README.md",
     "01-daily/Untitled",
@@ -214,7 +217,6 @@
     "00-inbox/obsbot-tiny-se.md",
     "00-inbox/chrony.md",
     "00-inbox/fedora-stack.md",
-    "00-inbox/rode-nt-usb-mini.md",
     "00-inbox/mc.md",
     "00-inbox/assets/images/rode-nt-usb-mini.png",
     "00-inbox/assets/images/obsbot-tiny-se.png",
@@ -230,7 +232,6 @@
     "12-media/audio/audio-routing.md",
     "12-media/pipewire/audio-debugging.md",
     "12-media/recording/tests/2026/2026-05-20-obsbot-tiny-se-control-test/assets.md",
-    "12-media/audio/noise-reduction.md",
     "12-media/recording/tests/2026/2026-05-20-obsbot-tiny-se-control-test/screenshots",
     "12-media/recording/tests/2026/2026-05-20-obsbot-tiny-se-control-test",
     "12-media/recording/tests/2026",
@@ -238,7 +239,6 @@
     "12-media/hardware/cameras/obsbot-tiny-se/assets/images/rode-nt-usb-mini.png",
     "12-media/hardware/cameras/obsbot-tiny-se/assets/images/obsbot-tiny-se.png",
     "12-media/hardware/cameras/obsbot-tiny-se/assets/images",
-    "12-media/hardware/cameras/obsbot-tiny-se/assets",
-    "12-media/hardware/cameras/obsbot-tiny-se"
+    "12-media/hardware/cameras/obsbot-tiny-se/assets"
   ]
 }
