@@ -32,3 +32,4 @@ This will update your existing config files
 
 References
 * https://access.redhat.com/articles/7142302
+* https://goose-docs.ai/
