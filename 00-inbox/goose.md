@@ -22,9 +22,6 @@ Logs dir:                /root/.local/state/goose/logs
 ## Using `RHEL-command-line-assistant` model
 
 No need to configure anything, just use.
-
-goose run
-
 ### Non interactive session mode
 
 ```bash
