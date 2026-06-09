@@ -6,7 +6,7 @@ Notes related to command-line tools, shells, terminal multiplexers, and producti
 
 ### Terminal Multiplexers
 
-- [tmux-tpm](03-linux/terminal/tmux-tpm.md) - TPM and tmux plugin management.
+- [tmux-tpm](tmux-tpm.md) - TPM and tmux plugin management.
 
 ### Terminal Emulators
 
