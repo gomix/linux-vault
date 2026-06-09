@@ -19,10 +19,3 @@ Katello uses:
 
 - Pulp
 - Candlepin
-
-## Related Notes
-
-- [[Foreman]]
-- [[Pulp]]
-- [[Candlepin]]
-- [[Red Hat Satellite]]
