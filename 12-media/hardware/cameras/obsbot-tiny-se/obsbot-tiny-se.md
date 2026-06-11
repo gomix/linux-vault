@@ -79,8 +79,7 @@ v4l2-ctl -d /dev/video0 --list-ctrls
 ## Manual Exposure
 
 ```bash
-v4l2-ctl -d /dev/video0 \
-  --set-ctrl=auto_exposure=1
+v4l2-ctl -d /dev/video0 --set-ctrl=auto_exposure=1
 ```
 
 ---
@@ -88,8 +87,7 @@ v4l2-ctl -d /dev/video0 \
 ## Adjust Exposure
 
 ```bash
-v4l2-ctl -d /dev/video0 \
-  --set-ctrl=exposure_time_absolute=150
+v4l2-ctl -d /dev/video0 --set-ctrl=exposure_time_absolute=150
 ```
 
 ---
@@ -99,13 +97,11 @@ v4l2-ctl -d /dev/video0 \
 ### Pan
 
 ```bash
-v4l2-ctl -d /dev/video0 \
-  --set-ctrl=pan_absolute=0
+v4l2-ctl -d /dev/video0 --set-ctrl=pan_absolute=0
 ```
 
 ### Tilt
 
 ```bash
-v4l2-ctl -d /dev/video0 \
-  --set-ctrl=tilt_absolute=0
+v4l2-ctl -d /dev/video0 --set-ctrl=tilt_absolute=0
 ```
