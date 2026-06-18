@@ -1,7 +1,7 @@
 YouTube Music Desktop App
 * https://ytmdesktop.github.io/ytmdesktop
 
-Installing/Running
+Installing/Running on my Fedora using `flatpak`.
 
 ```
 $ flatpak install --system flathub app.ytmdesktop.ytmdesktop
