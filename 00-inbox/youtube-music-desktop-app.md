@@ -9,4 +9,4 @@ $ flatpak run app.ytmdesktop.ytmdesktop
 ```
 After you login you have your app available, below its running side by side with easyeffects in my Hyprland.
 
-![[Pasted image 20260618114734.png]]
+![[../14-assets/images/ytmdesktop.png]]
