@@ -9,6 +9,4 @@ $ flatpak run app.ytmdesktop.ytmdesktop
 ```
 After you login you have your app available, below its running side by side with easyeffects in my Hyprland.
 
-[YouTube Music Desktop App](../../../14-assets/images/ytmdesktop.png)
-
-
+![YouTube Music Desktop App](../../../14-assets/images/ytmdesktop.png)
