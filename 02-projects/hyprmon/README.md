@@ -41,3 +41,18 @@ $ systemctl --user status hyprmon.service
         CPU: 8ms
 ...
 ```
+Now the watcher is running, let's test disconnecting/connecting a new external monitor and looking into to the logs provided by journal:
+
+```
+%> journalctl --user -f -t hyprmon                                                                                                                                                                            
+Jul 10 09:21:32 ggomezsa-thinkpadx1nanogen2.remote.csb hyprmon[456886]: event: monitorremovedv2>>1,DP-3,Samsung Electric Company LS34A650U H4ZRA06381
+Jul 10 09:21:32 ggomezsa-thinkpadx1nanogen2.remote.csb hyprmon[456889]: started event=monitorremovedv2>>1,DP-3,Samsung Electric Company LS34A650U H4ZRA06381
+Jul 10 09:21:32 ggomezsa-thinkpadx1nanogen2.remote.csb hyprmon[456893]: no known external monitor detected
+Jul 10 09:21:32 ggomezsa-thinkpadx1nanogen2.remote.csb hyprmon[456900]: finished event=monitorremovedv2>>1,DP-3,Samsung Electric Company LS34A650U H4ZRA06381
+Jul 10 09:21:48 ggomezsa-thinkpadx1nanogen2.remote.csb hyprmon[457479]: event: monitoraddedv2>>1,DP-3,Samsung Electric Company LS34A650U H4ZRA06381
+Jul 10 09:21:48 ggomezsa-thinkpadx1nanogen2.remote.csb hyprmon[457482]: started event=monitoraddedv2>>1,DP-3,Samsung Electric Company LS34A650U H4ZRA06381
+Jul 10 09:21:48 ggomezsa-thinkpadx1nanogen2.remote.csb hyprmon[457506]: office monitor detected output=DP-3
+Jul 10 09:21:48 ggomezsa-thinkpadx1nanogen2.remote.csb hyprmon[457514]: finished event=monitoraddedv2>>1,DP-3,Samsung Electric Company LS34A650U H4ZRA06381
+```
+
+Adapt!
