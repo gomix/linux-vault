@@ -1,0 +1,11 @@
+Archiving tools notes:
+- tar
+- gzip
+- bzip2
+- xz
+- zstd
+- zip/unzip
+- cpio
+- pax
+- pigz
+- unzstd
