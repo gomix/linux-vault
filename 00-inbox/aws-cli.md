@@ -126,6 +126,45 @@ aws ec2 describe-instances \
   }' \
   --output table
 ```
+---
+
+# List Buckets
+
+```
+$ aws s3 ls
+2026-07-17 12:25:34 first.bucket
+
+$ aws s3 ls s3://first.bucket/
+$ 
+
+$ echo "NooBaa S3 test $(date)" > /tmp/noobaa-test.txt
+$ aws s3 cp /tmp/noobaa-test.txt s3://first.bucket/
+  upload: ../../tmp/noobaa-test.txt to s3://first.bucket/noobaa-test.txt
+
+$ s3 ls s3://first.bucket/
+  warnings.warn(
+2026-07-17 13:27:24         48 noobaa-test.txt
+```
+
+Using S3 API:
+
+```
+aws s3api list-buckets \
+  --query 'Buckets[].{Name:Name,Created:CreationDate}' \
+  --output table
+```
+
+List bucket content:
+
+```
+aws s3 ls s3://NOMBRE_DEL_BUCKET/
+```
+
+Include all objects and subdirectories:
+
+```
+aws s3 ls s3://NOMBRE_DEL_BUCKET/ --recursive
+```
 
 ---
 
