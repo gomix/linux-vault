@@ -4,6 +4,47 @@
 
 Taskwarrior is a powerful command-line task management tool that helps users organize, prioritize, schedule, and track personal and professional tasks using a flexible, scriptable, and text-based workflow.
 
+
+## Simple Ops on  tasks
+
+**Start**
+
+```
+%> task 71 start
+Starting task 71 'Support Case https://example.com/xxxxxxxxx'.
+Started 1 task.
+You have more urgent tasks.
+Project 'customer' is 83% complete (5 of 30 tasks remaining).
+```
+
+**Stop**
+
+```
+%> task 71 stop
+Stopping task 71 'Support Case https://example.com/xxxxxxx'.
+Stopped 1 task.
+Project 'customer' is 83% complete (5 of 30 tasks remaining).
+```
+
+**Done**
+
+```
+%> task 55 done
+Completed task 55 'OpenShift Virtualization Journey Start'.
+Completed 1 task.
+You have more urgent tasks.
+The project 'jtb' has changed.  Project 'jtb' is 86% complete (2 of 15 tasks remaining).
+```
+
+**Edit**
+
+```
+%> task 70 edit
+Launching 'vim "task.d80e5cfb.task"' now...
+Editing complete.
+Edits were detected.
+Description modified.
+```
 ## Contexts
 
 Perhaps the best option to segregate tasks.
