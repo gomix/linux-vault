@@ -66,4 +66,4 @@ ID Active Age   P Project      Tag       Recur Due  Description                 
 3 tasks
 ```
 
-That is better, disclaimer, the result do not include recurrent tasks.
+That is better, disclaimer, the result does not include recurrent tasks.
