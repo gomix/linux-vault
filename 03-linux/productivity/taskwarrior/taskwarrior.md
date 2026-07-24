@@ -4,6 +4,45 @@
 
 Taskwarrior is a powerful command-line task management tool that helps users organize, prioritize, schedule, and track personal and professional tasks using a flexible, scriptable, and text-based workflow.
 
+## Contexts
+
+Perhaps the best option to segregate tasks.
+
+* Defining by exclusion
+
+```
+$ task context define work project.not:personal
+```
+*  Defining by inclusion
+
+```
+$ task context define personal project:personal
+```
+* Use `task context <context>` to activate
+
+```
+$ task context personal
+```
+
+* List contexts
+
+```
+$ task context
+
+Name     Type  Definition           Active
+personal read  project:personal     no    
+         write project:personal     no
+work     read  project.not:personal yes   
+         write                      yes
+```
+
+* Stop using contexts
+
+```
+$ task context none
+```
+
+
 
 ## ACTIVE filter
 
