@@ -4,6 +4,10 @@
 
 Taskwarrior is a powerful command-line task management tool that helps users organize, prioritize, schedule, and track personal and professional tasks using a flexible, scriptable, and text-based workflow.
 
+## Task Satuses and States
+
+> **Taskwarrior defines four task statuses: `pending`, `recurring`, `completed`, and `deleted`. Additional states such as `ACTIVE`, `WAITING`, `BLOCKED`, and `OVERDUE` are not task statuses but virtual tags dynamically derived from task attributes such as `start`, `wait`, `depends`, and `due`.**
+
 
 ## Simple Ops on  tasks
 
