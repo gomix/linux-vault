@@ -29,10 +29,11 @@ Context 'work' set. Use 'task context none' to remove.
 But how can i know what's the next important for to start working on?
 There are so many things important to i must do!
 
-Lets try:
+Lets try.
+
+ We can query projects non-active tasks:
 
 ```
-; we can query projects non-active tasks
 %> task project:customer
 
 ID Active Age   P Project Tag            Due   Description                                                                Urg 
@@ -48,10 +49,11 @@ ID Active Age   P Project Tag            Due   Description                      
 11         6w     customer  tsr             2w   Phased Gates plan                                                          4.45
 
 5 tasks
+```
 
-; but you have several accounts and your personal project for PD and related tasks, and also the tam-practice project
+But you have several accounts and your personal project for PD and related tasks, let's try using due dates:
 
-; lets try using due dates
+```
 %> task due:friday next
 
 ID Active Age   P Project      Tag       Recur Due  Description                                                     Urg 
@@ -62,6 +64,6 @@ ID Active Age   P Project      Tag       Recur Due  Description                 
 64        46min   tam-practice             P7D 6d   Update engagement plan                                          6.78
 
 3 tasks
-
-; that is better, disclaimer, the result do not include recurrent tasks
 ```
+
+That is better, disclaimer, the result do not include recurrent tasks.
