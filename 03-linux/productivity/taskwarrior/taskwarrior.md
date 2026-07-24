@@ -1,6 +1,6 @@
 # Taskwarrior 
 
-<img src="../../14-assets/images/taskwarrior.png" width="40"> https://taskwarrior.org/
+<img src="../../../14-assets/images/taskwarrior.png" width="40"> https://taskwarrior.org/
 
 Taskwarrior is a powerful command-line task management tool that helps users organize, prioritize, schedule, and track personal and professional tasks using a flexible, scriptable, and text-based workflow.
 
