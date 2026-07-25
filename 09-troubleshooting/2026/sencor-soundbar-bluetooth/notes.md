@@ -1,4 +1,3 @@
-
 ---
 tags:
   - bluetooth
@@ -70,3 +69,5 @@ Connection successful
 Discovery stopped
 [SSB 4450BS]> 
 ```
+
+
