@@ -1,0 +1,26 @@
+{
+  "extensions": [
+    "txt",
+    "py",
+    "js",
+    "ts",
+    "html",
+    "css",
+    "json",
+    "xml",
+    "yaml",
+    "yml",
+    "sql",
+    "sh",
+    "bat",
+    "ini",
+    "cfg",
+    "log",
+    "csv",
+    "service"
+  ],
+  "syntaxHighlighting": true,
+  "lineNumbers": true,
+  "wordWrap": true,
+  "fontSize": 14
+}
