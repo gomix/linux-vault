@@ -1,3 +1,10 @@
+---
+tags:
+  - aws
+  - cloud
+  - cli
+---
+
 # AWS CLI - Getting Started
 
 ## Purpose

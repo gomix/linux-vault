@@ -1,140 +1,113 @@
+---
+tags:
+  - keyboard
+  - keybindings
+---
 # Identifying Keys and Events
+
 ## Recommended Tools
 * wev
 * libinput
 
-## 1. `wev` (la mejor opción en Wayland)
-
--Instálalo:
+## 1. `wev` best  option for Wayland
 
 ```bash
 sudo dnf install wev
 ```
 
-Ejecuta:
+Run it:
 
 ```bash
 wev
 ```
 
-Luego presiona teclas y verás algo así:
+Press keys and watch:
 
 ```text
 key: serial: 148; time: 26435; key: 38; state: 1 (pressed)
 sym: a (97), utf8: 'a'
 ```
 
-Muy útil porque muestra:
+Very useful , it outputs:
 
 - keycode    
 - keysym
-- estado pressed/released
-- UTF-8 generado
-
-Para combinaciones Hyprland (`SUPER`, `ALT`, etc.) funciona excelente.
+- state pressed/released
+- generated UTF-8
 
 ---
-## 2. `libinput debug-events` (nivel más bajo)
+## 2. `libinput debug-events` , lower level
 
-Esto muestra eventos del dispositivo input directamente:
+It shows device events directly:
 
 ```bash
 sudo libinput debug-events
 ```
 
-Ejemplo:
+Example:
 
 ```text
 event3  KEYBOARD_KEY     +1.23s KEY_A (30) pressed
 ```
 
-Ventajas:
+Advantages:
 
-- Ve teclas incluso antes del compositor
-- Útil para debugging hardware
+- Before compositor capture.
+- Useful for hardware debugging.
    
+Disadvantages:
 
-Desventajas:
-
-- Más ruidoso
-- Necesita sudo
+- Noisy.
+- Needs `sudo`.
 
 ---
 
-## 3. Ver bindings activos de Hyprland
+## 3. Wayland Active Bindings
 
-Para verificar cómo Hyprland interpreta tus binds:
+To verify how Hyprland interprets your binds:
 
 ```bash
 hyprctl binds
 ```
 
-Muy útil si quieres confirmar:
+Very useful to verify:
 
 ```ini
 bind = SUPER, TAB, cyclenext
 ```
 
-o detectar conflictos.
+Or for detecting conflicts.
 
 ---
 
-## 4. Detectar keycodes exactos
+## 4. Detect exact keycodes
 
-Con `wev`:
+With `wev`:
 
 ```text
 key: 133
 ```
 
-Ese `133` normalmente es:
+`133` normally is:
 
 - Left Super
-    
 
-Ejemplos comunes:
+Common examples:
 
-|Tecla|Keycode Linux|
-|---|---|
-|Super_L|133|
-|Alt_L|64|
-|Ctrl_L|37|
-|Enter|36|
-|Tab|23|
+| Tecla   | Keycode Linux |
+| ------- | ------------- |
+| Super_L | 133           |
+| Alt_L   | 64            |
+| Ctrl_L  | 37            |
+| Enter   | 36            |
+| Tab     | 23            |
 
 ---
 
-## 5. Para debugging específico de Hyprland
+## 5. Debugging on Hyprland
 
-Puedes monitorear eventos live:
+Monitoring events:
 
 ```bash
 socat - UNIX-CONNECT:/tmp/hypr/$HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock
 ```
-
-Y verás eventos internos del compositor.
-
----
-
-## Tu caso práctico (SUPER+TAB)
-
-Te recomiendo:
-
-```bash
-wev
-```
-
-Presiona:
-
-- `SUPER`
-- `TAB`
-- `ALT+TAB`
-- `SUPER+TAB`
-
-y observa:
-
-- qué keysym genera
-- si hay repeat
-- si alguna tecla no llega correctamente
-
-Eso te ayuda mucho cuando un bind no funciona o colisiona con algo en Hyprland o en aplicaciones como kitty.
