@@ -48,7 +48,7 @@ To display the friendly names associated with each profile:
 cat ~/.config/google-chrome/'Local State' | jq '.profile.info_cache'
 ```
 
-Example output:
+Example output (relevant fields only):
 
 ```json
 {
