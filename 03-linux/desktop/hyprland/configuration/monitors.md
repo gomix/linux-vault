@@ -112,7 +112,6 @@ Workspace placement also has a static baseline:
 ```ini
 workspace = 1, monitor:eDP-1, default:true, persistent:true, layout:master, layoutopt:orientation:left
 workspace = 2, monitor:DP-3, default:true
-
 workspace = 3, monitor:DP-3, persistent:true
 workspace = 4, monitor:DP-3, persistent:true
 workspace = 5, monitor:DP-3, persistent:true
