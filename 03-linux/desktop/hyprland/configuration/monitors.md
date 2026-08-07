@@ -5,14 +5,6 @@ tags:
   - wayland
   - displays
 ---
----
-tags:
-  - linux
-  - hyprland
-  - wayland
-  - displays
----
-
 # Dynamic Monitor Configuration in Hyprland
 
 ## Overview
