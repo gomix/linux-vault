@@ -2,7 +2,7 @@
 
 Temporary capture area.
 
-Everything lands here first.
+Everything lands here first except when i know beforehand where to put the note.
 
 Examples:
 
