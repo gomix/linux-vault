@@ -12,7 +12,7 @@ tags:
 
 Mission, choose between two available WiFi networks, my home office case.
 
-* Ubciación, mi escritorio, no puedo moverme más cerca del WiFi AP.
+* Location, my desk, i can not move closer to the WiFi AP.
 
 ```
 %> nmcli g
