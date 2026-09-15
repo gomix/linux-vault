@@ -57,8 +57,8 @@ Connected to 14:36:0e:d7:75:f1 (on wlp0s20f3)
 	beacon int: 100
 ```
 
-| Métrica         |  O2 2.4 GHz |              O2 5 GHz |
-|:--------------- |:----------: |:--------------------: |
+| Métrica         |  O2 2.4 GHz |              O2 5 GHz |                                                        
+|:--------------- |-----------: |---------------------: |
 | Frecuencia      |    2412 MHz |              5260 MHz |
 | Canal           |           1 |                    52 |
 | **RSSI**        | **−64 dBm** |           **−83 dBm** |
@@ -66,3 +66,4 @@ Connected to 14:36:0e:d7:75:f1 (on wlp0s20f3)
 | TX PHY actual   |     65 Mbps |               65 Mbps |
 | RX mode         |     802.11n |              802.11ac |
 | Ancho observado |           — | 40 MHz RX / 80 MHz TX |
+
