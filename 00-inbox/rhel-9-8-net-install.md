@@ -1,0 +1,9 @@
+- https://access.redhat.com/downloads/content/rhel
+	- Download Red Hat Enterprise Linux 9.8 Boot ISO
+	- VM specs
+		- 10  GB disk space minimum
+		- 2 GB RAM
+	- Easy task done, now comes the fun part...
+- Related Blog Post with interesting content:
+	- https://www.redhat.com/en/blog/rhel-102-and-98-intelligent-evolution-enterprise-linux
+	- 
