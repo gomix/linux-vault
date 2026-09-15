@@ -68,15 +68,15 @@ Connected to 14:36:0e:d7:75:f1 (on wlp0s20f3)
 	beacon int: 100
 ```
 
-|   | Metric             |  O2 2.4 GHz |              O2 5 GHz |     |
-|---| :----------------- | ----------: | --------------------: | --- |
-|   | Frequency          |    2412 MHz |              5260 MHz |     |
-|   | Channel            |           1 |                    52 |     |
-|   | **RSSI**           | **−64 dBm** |           **−83 dBm** |     |
-|   | RX PHY             | **78 Mbps** |             40.5 Mbps |     |
-|   | TX PHY             |     65 Mbps |               65 Mbps |     |
-|   | RX mode            |     802.11n |              802.11ac |     |
-|   | Observed Bandwidth |           — | 40 MHz RX / 80 MHz TX |     |
+|     | Metric             |  O2 2.4 GHz |              O2 5 GHz |     |
+| --- | :----------------- | ----------: | --------------------: | --- |
+|     | Frequency          |    2412 MHz |              5260 MHz |     |
+|     | Channel            |           1 |                    52 |     |
+|     | **RSSI**           | **−64 dBm** |           **−83 dBm** |     |
+|     | RX PHY             | **78 Mbps** |             40.5 Mbps |     |
+|     | TX PHY             |     65 Mbps |               65 Mbps |     |
+|     | RX mode            |     802.11n |              802.11ac |     |
+|     | Observed Bandwidth |           — | 40 MHz RX / 80 MHz TX |     |
 
 ```
 %> ip route l
