@@ -1,4 +1,5 @@
 ---
+tags:
 - hardware
 - home-office
 - networking
