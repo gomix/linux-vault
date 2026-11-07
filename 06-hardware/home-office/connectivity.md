@@ -1,7 +1,6 @@
 ---
 tags:
 - hardware
-- home-office
 - networking
 ---
 # Home Office - Connectivity
